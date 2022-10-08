@@ -33,16 +33,17 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-
+  <script src="//cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
     const gitalk = new Gitalk({
-      clientID: 'Iv1.cd09bd183d840e34',
-      clientSecret: 'f107298f239f337fd2f7cd466dfb3c65775ad3f7',
-      repo: 'https://github.com/xiaohai2271/hmc-doc',
+      clientID: '61ca5b42d9ee794971f3',
+      clientSecret: '93e5583198e4a9e904324ffaf2fec74978f7fcc0',
+      repo: 'hmc-doc',
       owner: 'xiaohai2271',
       admin: ['xiaohai2271'],
+      id: md5(location.pathname),
       // facebook-like distraction free mode
       distractionFreeMode: false
     })
