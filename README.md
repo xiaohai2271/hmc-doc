@@ -2,4 +2,4 @@
 
 网站链接： [https://cdb.menghuan.life](https://cdb.menghuan.life) （暂定）
 
-文档地址： [https://cdb.menghuan.life/doc](https://cdb.menghuan.life/doc)
+文档地址： [https://cdb.menghuan.life/doc](https://cdb.menghuan.life/doc)、[https://xiaohai2271.github.io/hmc-doc](https://xiaohai2271.github.io/hmc-doc)
